@@ -1,0 +1,17 @@
+# Эта машина, без root (nmap 7.992)
+nmap -sT -Pn 127.0.0.1
+nmap -sT -Pn 192.168.1.6
+nmap -sP 127.0.0.1 192.168.1.6
+nmap -sV --top-ports 50 -Pn 127.0.0.1
+
+# Привилегированные методы с host.docker.internal (та же macOS)
+nmap -sT -Pn host.docker.internal
+nmap -sS -Pn host.docker.internal
+nmap -sU --top-ports 15 -Pn host.docker.internal
+nmap -sA -Pn host.docker.internal
+nmap -sF -Pn host.docker.internal
+nmap -O -Pn host.docker.internal
+nmap -sV --top-ports 30 -Pn host.docker.internal
+nmap -sP host.docker.internal
+nmap -sO -Pn host.docker.internal
+nmap -sS -T2 --top-ports 30 -Pn host.docker.internal

@@ -1,0 +1,14 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2026-10-19 17:00 UTC
+Nmap scan report for host.docker.internal (192.168.65.254)
+Host is up (0.0012s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+445/tcp  open  microsoft-ds
+5432/tcp open  postgresql
+5900/tcp open  vnc
+5959/tcp open  unknown
+Aggressive OS guesses: Apple OS X 10.10 (Yosemite) - 10.11 (El Capitan) (Darwin 14.0.0 - 15.0.0) (88%), Apple TV 5.2.1 or 5.3 (88%), Blue Coat proxy server (SGOS 6.3.2.201) (87%), HP ProCurve 2524 switch or 9100c Digital Sender printer (87%), Apple iPhone mobile phone (iOS 4.3.3) (86%), Apple iOS 7.1 or 9.3 (Darwin 14.0.0 - 15.4.0) (86%), Apple iOS 8.4 - 9.3 (Darwin 14.0.0 - 15.6.0) (86%), Apple OS X 10.10 (Yosemite) (Darwin 14.0.0) (86%), Apple OS X 10.10.2 (Yosemite) - 10.11.1 (El Capitan) or iOS 9 (Darwin 14.1.0 - 15.0.0) (86%), Apple OS X 10.10.5 (Darwin 14.5.0) (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.80 seconds

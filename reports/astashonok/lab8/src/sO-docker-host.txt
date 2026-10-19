@@ -1,0 +1,14 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2026-10-19 17:00 UTC
+Nmap scan report for host.docker.internal (192.168.65.254)
+Host is up (0.00040s latency).
+Not shown: 249 closed protocols
+PROTOCOL STATE         SERVICE
+1        open          icmp
+2        open|filtered igmp
+6        open          tcp
+17       open|filtered udp
+33       open|filtered dccp
+58       open|filtered ipv6-icmp
+136      open|filtered udplite
+
+Nmap done: 1 IP address (1 host up) scanned in 3.99 seconds
